@@ -1,0 +1,54 @@
+<html>
+    <head>
+            <style>
+                pre {
+                    font-size: 40px;
+                }
+            
+            .a {
+                color: green;
+            }
+            .b {
+                color: yellowgreen;
+            }
+            .c {
+                color: orange;
+                
+            }
+            .d {
+                color:#ce2100;
+            }
+            .f{
+                color:#800800
+            }
+            </style>
+            <script type = "text/javascript">
+                //use preformatted text
+ 
+        //declare variables
+        //collect data
+            var percent = window.prompt("Enter percent out of 100: Please enter a number between 0 and 100 inclusive")
+            if(percent>=89.5) {
+                document.write( "<pre class='a'>" );
+                document.write("You got an A!");
+                document.write( "</pre>" );
+            }else if (percent>=79.5){
+                document.write( "<pre class='b'>" );
+                document.write("You got an B!");
+                document.write( "</pre>" );
+            }else if (percent>=69.5){  
+                document.write( "<pre class='c'>" );
+                document.write("You got an C!");
+                document.write( "</pre>" );
+            }else if (percent>=59.5){
+                document.write( "<pre class='d'>" );
+                document.write("You got an D!");
+                document.write( "</pre>" );
+            }else{
+                document.write( "<pre class='f'>" );
+                document.write("You got an F!");
+                document.write( "</pre>" );
+            }
+            </script>
+    </head>
+</html>
